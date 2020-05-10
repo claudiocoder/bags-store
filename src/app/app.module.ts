@@ -9,6 +9,10 @@ import { MenuOptiosComponent } from './components/menu-options/menu-options.comp
 import { HomeComponent } from './pages/home/home.component';
 import { AccessoriesComponent } from './pages/accessories/accessories.component';
 import { BlogComponent } from './pages/blog/blog.component';
+import { ProductsComponent } from './components/products/products.component';
+import { BannerComponent } from './components/banner/banner.component';
+import { NewsletterComponent } from './components/newsletter/newsletter.component';
+import { FotterComponent } from './components/fotter/fotter.component';
 
 @NgModule({
   declarations: [
@@ -19,6 +23,10 @@ import { BlogComponent } from './pages/blog/blog.component';
     HomeComponent,
     AccessoriesComponent,
     BlogComponent,
+    ProductsComponent,
+    BannerComponent,
+    NewsletterComponent,
+    FotterComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],

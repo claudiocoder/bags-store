@@ -1,0 +1,20 @@
+.title-products {
+  width: 100%;
+  display: block;
+  flex-direction: row nowrap;
+  align-items: center;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 26px;
+  font-family: 'PT Serif', serif;
+}
+
+.products-container{
+  padding: 15px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+}

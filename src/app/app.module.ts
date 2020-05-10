@@ -13,6 +13,7 @@ import { ProductsComponent } from './components/products/products.component';
 import { BannerComponent } from './components/banner/banner.component';
 import { NewsletterComponent } from './components/newsletter/newsletter.component';
 import { FotterComponent } from './components/fotter/fotter.component';
+import { CarouselComponent } from './components/carousel/carousel.component';
 
 @NgModule({
   declarations: [
@@ -27,6 +28,7 @@ import { FotterComponent } from './components/fotter/fotter.component';
     BannerComponent,
     NewsletterComponent,
     FotterComponent,
+    CarouselComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],

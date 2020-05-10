@@ -14,6 +14,8 @@ import { BannerComponent } from './components/banner/banner.component';
 import { NewsletterComponent } from './components/newsletter/newsletter.component';
 import { FotterComponent } from './components/fotter/fotter.component';
 import { CarouselComponent } from './components/carousel/carousel.component';
+import { BannerAccesoriesComponent } from './components/banner-accesories/banner-accesories.component';
+import { BlogSummaryComponent } from './components/blog-summary/blog-summary.component';
 
 @NgModule({
   declarations: [
@@ -29,6 +31,8 @@ import { CarouselComponent } from './components/carousel/carousel.component';
     NewsletterComponent,
     FotterComponent,
     CarouselComponent,
+    BannerAccesoriesComponent,
+    BlogSummaryComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],

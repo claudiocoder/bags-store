@@ -2,10 +2,9 @@
 <app-carousel></app-carousel>
 <div class="title-products">SUMMER TIME</div>
 <div class="products-container">
-    <app-products></app-products>
-    <app-products></app-products>
-    <app-products></app-products>
-    <app-products></app-products>
+    <div *ngFor="let item of dataArray">
+        <app-products [data]="item"></app-products>
+    </div>    
 </div>
 <app-banner></app-banner>
 <app-newsletter></app-newsletter>
